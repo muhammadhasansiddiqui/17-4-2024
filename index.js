@@ -31,3 +31,6 @@
 // console.log("Time ===>",time );
 
 
+var msDiff = new Date.getTime() - new Date().getTime(); 
+var days = Math.floor(msDiff / (1000 * 60 * 60 * 24));
+console.log(days);
